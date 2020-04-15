@@ -14,7 +14,7 @@ from config import PERSONS, AREAS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS, LAY
 ## assets
 from storybuilder.assets import basic, accessory
 ## local files
-from src.story_1to10.main import ch001_doller
+from src.story_1to10.story001 import ch001_doller
 
 ## define alias
 W = Writer
