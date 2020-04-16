@@ -14,7 +14,7 @@ from config import PERSONS, AREAS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS, LAY
 ## assets
 from storybuilder.assets import basic, accessory
 ## local files
-from src.chapter.main import ch_tmp
+from src.story_1to10.story001 import ch001_doller
 
 ## define alias
 W = Writer
@@ -22,23 +22,7 @@ _ = Writer.getWho()
 
 ################################################################
 #
-# Sample step:
-# 1) Create the world
-#       世界を作成する。
-# 2) Create a new chapter
-#       章の作成。
-# 3) Create a episode
-#       エピソード作成。
-# 4) Create a new scene
-#       シーン作成。物語のベース。ここに様々なActionを追加する。
-# 5) Create a new stage
-#       舞台作成。シーンに必須要素
-# 6) Create a new day and time
-#       日時作成。シーンのサブ要素
-# 7) Add a scene plot
-#       シーンプロットの作成。概要のないシーンは原則使えない
-# 8) Add scene actions
-#       シーンアクションの追加。
+#   1.人形師の女
 #
 ################################################################
 
@@ -47,7 +31,7 @@ _ = Writer.getWho()
 def create_world():
     """Create a world.
     """
-    w = World("title")
+    w = World("原稿用紙の為の作品集１")
     w.setCommonData()
     w.setAssets(basic.ASSET)
     w.setAssets(accessory.ASSET)
@@ -60,14 +44,14 @@ def create_world():
     # w.entryBlock()
     # w.entryHistory()
     # w.entryLifeNote()
-    w.setOutline("__outline__")
+    w.setOutline("原稿用紙３枚程度の作品集")
     return w
 
 
 def main(): # pragma: no cover
     w = create_world()
     return w.build(
-            ch_tmp(w),
+            ch001_doller(w),
             )
 
 
