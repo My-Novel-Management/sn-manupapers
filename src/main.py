@@ -15,6 +15,7 @@ from config import PERSONS, AREAS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS, LAY
 from storybuilder.assets import basic, accessory
 ## local files
 from src.story_1to10.story001 import ch001_doller
+from src.story_1to10.story002 import ch002_drawing
 
 ## define alias
 W = Writer
@@ -52,6 +53,7 @@ def main(): # pragma: no cover
     w = create_world()
     return w.build(
             ch001_doller(w),
+            ch002_drawing(w),
             )
 
 
