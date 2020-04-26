@@ -69,11 +69,15 @@ def sc_main(w: World):
             yui.talk("ええ、行くわ"),
             w.br(),
             yui.do("わたしを、取り戻しに"),
+            camera=w.yui,
+            stage=w.on_yakata_int,
+            day=w.in_current, time=w.at_afternoon,
             )
 
 ## episode
 def ep_getbackman(w: World):
     return w.episode("君を取り戻す男",
+            sc_main(w),
             ## NOTE
             )
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Main story.
 """
@@ -16,6 +17,8 @@ from storybuilder.assets import basic, accessory
 ## local files
 from src.story_1to10.story001 import ch001_doller
 from src.story_1to10.story002 import ch002_drawing
+from src.story_1to10.story003 import ch003_getback
+
 
 ## define alias
 W = Writer
@@ -54,6 +57,7 @@ def main(): # pragma: no cover
     return w.build(
             ch001_doller(w),
             ch002_drawing(w),
+            ch003_getback(w),
             )
 
 
