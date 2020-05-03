@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.0.0] - 2020-05-03
+### Added
+- production: no4: digital butterfly
+
 ## [3.0.0] - 2020-04-27
 ### Added
 - produciton: no3: get backer
@@ -27,7 +31,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
 - README one line implemented.
 
-[Unreleased]: https://github.com/My-Novel-Management/pp-novels/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/My-Novel-Management/pp-novels/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v4.0.0
 [3.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v3.0.0
 [2.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v2.0.0
 [1.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v1.0.0
