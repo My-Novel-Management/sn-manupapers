@@ -24,7 +24,7 @@ def sc_main(w: World):
     return w.scene("main",
             dbut.be(),
             dbut.do("ブラウン管に薄ぼんやりと光った小さな点に向かって、ちらちらと二枚の赤の明滅が移動してゆく。その赤が光に到達すると、画面にはコマンド・プロンプトが表示され、この人工生命の創造主であるトーレ・ベクター博士の命令を待った"),
-            _.do("＞Please input command"),
+            _.do("> Please input command"),
             _.do("かつてはその分野の第一人者だった博士の部屋には今、乱雑にパソコンが置かれ、その大半のモニタが割られたり倒されたりしている。その部屋の中央、キャスタ付きの椅子の上で体を折って動かない博士は、後頭部に血を浮かべていた"),
             _.do("トーレ博士は、殺されていたのだ"),
             _.do("＞Please input command"),
@@ -81,7 +81,7 @@ def ep_main(w: World):
             )
 
 ## chapter
-def ch003_getback(w: World):
+def ch004_digitalbutterfly(w: World):
     return w.chapter("４．電子蝶は夢を飛ぶ",
             ep_main(w),
             )
