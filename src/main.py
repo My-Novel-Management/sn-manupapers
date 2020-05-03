@@ -18,7 +18,7 @@ from storybuilder.assets import basic, accessory
 from src.story_1to10.story001 import ch001_doller
 from src.story_1to10.story002 import ch002_drawing
 from src.story_1to10.story003 import ch003_getback
-
+from src.story_1to10.story004 import ch004_digitalbutterfly
 
 ## define alias
 W = Writer
@@ -58,6 +58,7 @@ def main(): # pragma: no cover
             ch001_doller(w),
             ch002_drawing(w),
             ch003_getback(w),
+            ch004_digitalbutterfly(w),
             )
 
 
