@@ -46,6 +46,7 @@ PERSONS = (
         ### 004
         ("vector", "ベクター", "ベクター,トーレ", 60,(1,1), "male", "博士", "me:私"),
         ("digibutterfly", "電子蝶", "", 99,(1,1), "male", "蝶", "me:私"),
+        ("robber", "強盗", "", 40,(1,1), "male", "強盗", "me:オレ"),
         )
 
 AREAS = (
@@ -77,6 +78,8 @@ ITEMS = (
 
 WORDS = (
         # Tag / 名前 / 紹介
+        ### 004
+        ("inputcmd", "> Please input command."),
         )
 
 RUBIS = (
