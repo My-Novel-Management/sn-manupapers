@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [5.0.0] - 2020-05-10
+### Added
+- Production: no5: rainy sadness
+
 ## [4.0.0] - 2020-05-03
 ### Added
 - production: no4: digital butterfly
@@ -31,7 +35,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
 - README one line implemented.
 
-[Unreleased]: https://github.com/My-Novel-Management/pp-novels/compare/v4.0.0...HEAD
+[Unreleased]: https://github.com/My-Novel-Management/pp-novels/compare/v5.0.0...HEAD
+[5.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v5.0.0
 [4.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v4.0.0
 [3.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v3.0.0
 [2.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v2.0.0
