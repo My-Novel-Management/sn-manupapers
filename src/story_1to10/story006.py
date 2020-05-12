@@ -1,5 +1,27 @@
-涙の大河
+# -*- coding: utf-8 -*-
+"""Chapter: story 6: 「涙の大河」
+"""
+## path
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
+sys.path.append('storybuilder')
+## local libs
+from storybuilder.builder.world import World
+from storybuilder.builder.writer import Writer
+## local files
 
+
+## define alias
+W = Writer
+_ = W.getWho()
+
+## scenes
+def sc_main(w: World):
+    eika, cho = W(w.eika), W(w.chomei)
+    inside, outside = W(w.inside), W(w.outside)
+    return w.scene("main",
+            eika.be(),
 　ゆるりと立ち昇る靄を抜けると、向こう岸が見えないほど広い川に出た。そこでじっとたゆたう水面を見つめて泣く女が一人。彼女にあなたは問いかけた。
 
 「何故、泣いているのですか」
@@ -65,4 +87,22 @@
 
 　目の前の川はどこまでも穏やかに流れていた。
 
-（了）
+
+            w.symbol("（了）"),
+            camera=w.eika,
+            stage=w.on_field,
+            day=w.in_current, time=w.at_afternoon,
+            )
+
+## episode
+def ep_main(w: World):
+    return w.episode("大河",
+            sc_main(w),
+            ## NOTE
+            )
+
+## chapter
+def ch006_tearsriver(w: World):
+    return w.chapter("＃００６　【歴史】　涙の大河",
+            ep_main(w),
+            )
