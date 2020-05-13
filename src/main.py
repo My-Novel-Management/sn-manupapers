@@ -20,6 +20,8 @@ from src.story_1to10.story002 import ch002_drawing
 from src.story_1to10.story003 import ch003_getback
 from src.story_1to10.story004 import ch004_digitalbutterfly
 from src.story_1to10.story005 import ch005_rainy
+from src.story_1to10.story006 import ch006_tearsriver
+
 
 ## define alias
 W = Writer
@@ -61,6 +63,7 @@ def main(): # pragma: no cover
             ch003_getback(w),
             ch004_digitalbutterfly(w),
             ch005_rainy(w),
+            ch006_tearsriver(w),
             )
 
 
