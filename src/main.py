@@ -21,6 +21,7 @@ from src.story_1to10.story003 import ch003_getback
 from src.story_1to10.story004 import ch004_digitalbutterfly
 from src.story_1to10.story005 import ch005_rainy
 from src.story_1to10.story006 import ch006_tearsriver
+from src.story_1to10.story007 import ch007_windandbubble
 
 
 ## define alias
@@ -64,6 +65,7 @@ def main(): # pragma: no cover
             ch004_digitalbutterfly(w),
             ch005_rainy(w),
             ch006_tearsriver(w),
+            ch007_windandbubble(w),
             )
 
 
