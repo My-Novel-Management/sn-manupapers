@@ -56,14 +56,9 @@ PERSONS = (
         ("chomei", "長明", "", 35,(1,1), "male", "農夫", "me:俺"),
         )
 
-AREAS = (
-        # Tag / 名前 / x,y / 備考
-        ("Moscow", "モスクワ", 3761,5575),
-        )
-
 STAGES = (
-        # Tag / 名前 / Area / 紹介
-        ("field", "大地", "Tokyo"),
+        # Tag / 名前 / Parent / Geometry / 紹介
+        ("field", "大地", "Tokyo",),
         ## 001
         ("yakata", "人形の館", "Tokyo"),
         ## 004
@@ -132,9 +127,5 @@ RUBIS = (
         ("長明", "｜長明《ちょうめい》"),
         ("淀里", "｜淀里《てんり》"),
         ("湛えて", "｜湛《たた》えて"),
-        )
-
-LAYERS = (
-        # Key / Title / Words
         )
 

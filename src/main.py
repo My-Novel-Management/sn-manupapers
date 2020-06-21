@@ -1,32 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Main story.
-"""
-## path setting
+'''
+Story: The Stories for manuscript-papers.
+'''
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append('storybuilder')
-## public libs
-## local libs
 from storybuilder.builder.world import World
-from storybuilder.builder.writer import Writer
-from config import PERSONS, AREAS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS, LAYERS
-## assets
-from storybuilder.assets import basic, accessory
-## local files
-from src.story_1to10.story001 import ch001_doller
-from src.story_1to10.story002 import ch002_drawing
-from src.story_1to10.story003 import ch003_getback
-from src.story_1to10.story004 import ch004_digitalbutterfly
-from src.story_1to10.story005 import ch005_rainy
-from src.story_1to10.story006 import ch006_tearsriver
-from src.story_1to10.story007 import ch007_windandbubble
+from src.config import PERSONS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS
+#from src.story_1to10.story007 import ch007_windandbubble
 
-
-## define alias
-W = Writer
-_ = Writer.getWho()
 
 ################################################################
 #
@@ -35,37 +19,13 @@ _ = Writer.getWho()
 ################################################################
 
 
-## main
-def create_world():
-    """Create a world.
-    """
-    w = World("原稿用紙の為の作品集１")
-    w.setCommonData()
-    w.setAssets(basic.ASSET)
-    w.setAssets(accessory.ASSET)
-    w.buildDB(PERSONS,
-            AREAS, STAGES, DAYS, TIMES, ITEMS, WORDS,
-            RUBIS, LAYERS)
-    w.setBaseDate(2020)
-    w.setBaseArea("Tokyo")
-    # set textures
-    # w.entryBlock()
-    # w.entryHistory()
-    # w.entryLifeNote()
-    w.setOutline("原稿用紙３枚程度の作品集")
-    return w
-
 
 def main(): # pragma: no cover
-    w = create_world()
-    return w.build(
-            ch001_doller(w),
-            ch002_drawing(w),
-            ch003_getback(w),
-            ch004_digitalbutterfly(w),
-            ch005_rainy(w),
-            ch006_tearsriver(w),
-            ch007_windandbubble(w),
+    w = World.create_world('原稿用紙の為の作品集１')
+    w.config.set_outline('原稿用紙三枚程度の短編を収めたもの')
+    w.db.build_db(PERSONS, STAGES, DAYS, TIMES, ITEMS, WORDS, RUBIS)
+    return w.run(
+            #ch007_windandbubble(w),
             )
 
 
