@@ -54,15 +54,22 @@ PERSONS = (
         ### 006
         ("eika", "詠華", "", 30,(1,1), "female", "農夫", "me:私"),
         ("chomei", "長明", "", 35,(1,1), "male", "農夫", "me:俺"),
+        # 007
+        ('mitsu', '美津', '', 30,(1,1), 'female', 'OL', 'me:私'),
+        ('yoshida', '吉田', '', 40,(1,1), 'male', '会社員', 'me:僕'),
         )
 
 STAGES = (
         # Tag / 名前 / Parent / Geometry / 紹介
+        ('Tokyo', '東京', '', (100,100)),
+        ('Moscow', 'モスクワ', '', (1000,50)),
         ("field", "大地", "Tokyo",),
         ## 001
         ("yakata", "人形の館", "Tokyo"),
         ## 004
         ("vectorroom", "博士の部屋", "Moscow"),
+        # 007
+        ('manshion_mitsu', '美津のマンション', 'Tokyo'),
         )
 
 DAYS = (
