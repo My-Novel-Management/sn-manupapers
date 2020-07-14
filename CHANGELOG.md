@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [8.0.0] - 2020-07-14
 ### Added
 - Production: no8
+### Changed
+- StoryBuilder: (update v0.5.9-22)
 
 ## [7.0.0] - 2020-06-21
 ### Added
