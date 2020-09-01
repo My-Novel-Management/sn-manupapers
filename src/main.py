@@ -13,6 +13,7 @@ from storybuilder.assets import common_rubi
 from config import ASSET
 # import scenes
 from story_1to10 import Story008
+from story_1to10 import Story009
 
 
 ################################################################
@@ -25,6 +26,7 @@ from story_1to10 import Story008
 #   6.涙の大河
 #   7.風とシャボン玉
 #   8.十年後の世界の君に
+#   9.ただ会いたくて　＞AMGコン
 #
 ################################################################
 
@@ -68,6 +70,7 @@ def main(): # pragma: no cover
     w.config.set_released(*RELEASED)
     return w.run(
             Story008.ch_story008(w),
+            Story009.ch_story009(w),
             )
 
 
