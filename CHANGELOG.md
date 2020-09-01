@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [8.9.0] - 2020-09-01
+### Changed
+- StoryBuilder: v0.6.1
+- Github link url
+
 ## [8.0.0] - 2020-07-14
 ### Added
 - Production: no8
@@ -49,14 +54,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
 - README one line implemented.
 
-[Unreleased]: https://github.com/My-Novel-Management/pp-novels/compare/v8.0.0...HEAD
-[8.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v8.0.0
-[7.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v7.0.0
-[6.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v6.0.0
-[5.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v5.0.0
-[4.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v4.0.0
-[3.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v3.0.0
-[2.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v2.0.0
-[1.0.0]: https://github.com/My-Novel-Management/pp-novels/releases/v1.0.0
-[0.1.0]: https://github.com/My-Novel-Management/pp-novels/releases/v0.1.0
-[0.0.1]: https://github.com/My-Novel-Management/pp-novels/releases/v0.0.1
+[Unreleased]: https://github.com/My-Novel-Management/sn-manupapers/compare/v8.9.0...HEAD
+[8.9.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v8.9.0
+[8.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v8.0.0
+[7.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v7.0.0
+[6.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v6.0.0
+[5.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v5.0.0
+[4.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v4.0.0
+[3.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v3.0.0
+[2.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v2.0.0
+[1.0.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v1.0.0
+[0.1.0]: https://github.com/My-Novel-Management/sn-manupapers/releases/v0.1.0
+[0.0.1]: https://github.com/My-Novel-Management/sn-manupapers/releases/v0.0.1
