@@ -69,7 +69,7 @@ def main(): # pragma: no cover
     w.config.set_sites(*SITES)
     w.config.set_released(*RELEASED)
     return w.run(
-            Story008.ch_story008(w),
+            Story008.ch_story008(w).omit(),
             Story009.ch_story009(w),
             )
 

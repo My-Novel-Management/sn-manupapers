@@ -35,6 +35,9 @@ ASSET = {
             # 007
             ('mitsu', '美津', '', 30,(1,1), 'female', 'OL', 'me:私'),
             ('yoshida', '吉田', '', 40,(1,1), 'male', '会社員', 'me:僕'),
+            # 009
+            ("scar", "スカル", "", 30,(1,1), "male", "殺戮ロボット", "me:私"),
+            ("ery", "エリィ", "", 30,(1,1), "female", "女性", "me:私"),
             ),
         "STAGES": (
             # (tag / name / parent / (geometry) / info)
@@ -63,6 +66,8 @@ ASSET = {
             # (tag / name / cate / info)
             ### 004
             ("inputcmd", "> Please input command."),
+            ### 009
+            ("SCAR", "殺戮兵器ＳＣＡＲ０７０４"),
             ),
         "RUBIS": (
             # (origin / rubi / exclusions / always)
@@ -109,5 +114,8 @@ ASSET = {
             # 007
             ("微塵", "｜微塵《みじん》"),
             ("揃([いう])", "揃《そろ》\\1"),
+            ## 009
+            ("頸動脈", "｜頸動脈《けいどうみゃく》"),
+            ("殲滅", "｜殲滅《せんめつ》"),
             ),
         }
