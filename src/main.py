@@ -33,7 +33,7 @@ from story_1to10 import Story009
 
 # Constant
 TITLE = "原稿用紙の為の作品集"
-MAJOR, MINOR, MICRO = 8, 0, 0
+MAJOR, MINOR, MICRO = 9, 0, 0
 COPY = "原稿用紙は、物語をいつも待っている"
 ONELINE = "原稿用紙三枚（約1200字程度）の掌編集。ジャンルも作風もバラバラです"
 OUTLINE = "凪司工房が昔書いた掌編集から選んだ作品をリメイクし、約一冊分になるように作品を集めたものです"
